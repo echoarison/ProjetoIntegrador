@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lapis{
+    border: 1px solid #000;
+}
+
+
+.centro{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+body{
+    background-color: #7E9870;
+    color: #F8FFF8;
+}
+
+/*cabecario*/
+.cabecario{
+    text-align: center;
+}
+
+/*menu navegacao*/
+.menuNavExterno{
+    padding: 4px;
+    text-align: center;
+}
+
+/*.menuNav{
+    
+}*/
+
+.menuNav a{
+    display: inline-block;
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    border-radius: 2px;
+    background-color: #F5FBF1;
+}
+
+.menuNav a:hover{
+    background-color: #86E55D;
+    height: 60px;
+    width: 150px;
+}
+
+/*Formulario*/
+.formExterno{
+    width: 80%; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.formInterno{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/*botao Form*/
+.botao{
+    display: inline-block;
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    border-radius: 2px;
+    background-color: #F5FBF1;
+}
+
+.botao:hover{
+    background-color: #86E55D;
+    height: 60px;
+    width: 150px;
+}
+
+/*table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td button{
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    border-radius: 2px;
+    background-color: #F5FBF1;
+}
+
+td button:hover{
+    background-color: #86E55D;
+    height: 40px;
+    width: 100px;
+}
+
+/*footer*/
+.rodape{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /*width: 100%;*/
+}
